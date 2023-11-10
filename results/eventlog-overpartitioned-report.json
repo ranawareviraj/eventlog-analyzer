@@ -1,0 +1,4221 @@
+{
+  "appID": "eventlog-overpartitioned",
+  "status": "SUCCESS",
+  "totalApplicationDuration": 49647175,
+  "totalDurationOfAllTasks": 1565897161,
+  "actualExecutionDurationOfAllTasks": 1493966338,
+  "totalFailedJobsDuration": 0,
+  "totalGCDuration": 583850998,
+  "maxJobDuration": 48369854,
+  "minJobDuration": 33,
+  "averageJobDuration": 2758176,
+  "medianJobDuration": 1666,
+  "numberOfJobs": 18,
+  "numberOfFailedJobs": 0,
+  "numberOfAvailableCores": 160,
+  "taskScore": 19,
+  "executionScore": 95,
+  "gcScore": 62,
+  "tasksFailureMetrics": {
+    "ExecutorLostFailure": {
+      "count": 10
+    },
+    "ExceptionFailure": {
+      "count": 36
+    },
+    "FetchFailed": {
+      "count": 19
+    }
+  },
+  "jobReportList": [
+    {
+      "jobID": "3",
+      "appID": "eventlog-overpartitioned",
+      "status": "SUCCESS",
+      "totalJobDuration": 313774,
+      "totalDurationOfAllTasks": 28604935,
+      "actualExecutionDurationOfAllTasks": 27871397,
+      "totalFailedStagesDuration": 0,
+      "totalGCDuration": 193000,
+      "maxStageDuration": 272471,
+      "minStageDuration": 42,
+      "averageStageDuration": 26147,
+      "medianStageDuration": 3522,
+      "numberOfStages": 12,
+      "numberOfFailedStages": 0,
+      "numberOfAvailableCores": 160,
+      "taskScore": 56,
+      "executionScore": 97,
+      "gcScore": 99,
+      "tasksFailureMetrics": {
+        
+      },
+      "stageReportList": [
+        {
+          "stageID": "22",
+          "status": "SUCCESS",
+          "totalStageDuration": 155,
+          "totalDurationOfAllTasks": 79,
+          "actualExecutionDurationOfAllTasks": 63,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 0,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 155,
+          "minAttemptTime": 155,
+          "averageAttemptTime": 155,
+          "medianAttemptTime": 155,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 0,
+          "executionScore": 79,
+          "gcScore": 100,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "22-0",
+              "stageID": "22",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 155,
+              "totalDurationOfAllTasks": 79,
+              "actualExecutionDurationOfAllTasks": 63,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 0,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 63,
+              "minTaskTime": 63,
+              "averageTaskTime": 63,
+              "medianTaskTime": 63,
+              "numberOfTasks": 1,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 0,
+              "executionScore": 79,
+              "gcScore": 100,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "23",
+          "status": "SUCCESS",
+          "totalStageDuration": 8936,
+          "totalDurationOfAllTasks": 229871,
+          "actualExecutionDurationOfAllTasks": 88225,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 3650,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 8936,
+          "minAttemptTime": 8936,
+          "averageAttemptTime": 8936,
+          "medianAttemptTime": 8936,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 16,
+          "executionScore": 38,
+          "gcScore": 98,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "23-0",
+              "stageID": "23",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 8936,
+              "totalDurationOfAllTasks": 229871,
+              "actualExecutionDurationOfAllTasks": 88225,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 3650,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 8777,
+              "minTaskTime": 3,
+              "averageTaskTime": 10,
+              "medianTaskTime": 6,
+              "numberOfTasks": 8811,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 16,
+              "executionScore": 38,
+              "gcScore": 98,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "24",
+          "status": "SUCCESS",
+          "totalStageDuration": 64,
+          "totalDurationOfAllTasks": 60,
+          "actualExecutionDurationOfAllTasks": 44,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 0,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 64,
+          "minAttemptTime": 64,
+          "averageAttemptTime": 64,
+          "medianAttemptTime": 64,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 0,
+          "executionScore": 73,
+          "gcScore": 100,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "24-0",
+              "stageID": "24",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 64,
+              "totalDurationOfAllTasks": 60,
+              "actualExecutionDurationOfAllTasks": 44,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 0,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 44,
+              "minTaskTime": 44,
+              "averageTaskTime": 44,
+              "medianTaskTime": 44,
+              "numberOfTasks": 1,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 0,
+              "executionScore": 73,
+              "gcScore": 100,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "25",
+          "status": "SUCCESS",
+          "totalStageDuration": 2894,
+          "totalDurationOfAllTasks": 158947,
+          "actualExecutionDurationOfAllTasks": 50414,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 2647,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 2894,
+          "minAttemptTime": 2894,
+          "averageAttemptTime": 2894,
+          "medianAttemptTime": 2894,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 34,
+          "executionScore": 31,
+          "gcScore": 98,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "25-0",
+              "stageID": "25",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 2894,
+              "totalDurationOfAllTasks": 158947,
+              "actualExecutionDurationOfAllTasks": 50414,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 2647,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 178,
+              "minTaskTime": 3,
+              "averageTaskTime": 6,
+              "medianTaskTime": 6,
+              "numberOfTasks": 7669,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 34,
+              "executionScore": 31,
+              "gcScore": 98,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "26",
+          "status": "SUCCESS",
+          "totalStageDuration": 231,
+          "totalDurationOfAllTasks": 77,
+          "actualExecutionDurationOfAllTasks": 62,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 0,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 231,
+          "minAttemptTime": 231,
+          "averageAttemptTime": 231,
+          "medianAttemptTime": 231,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 0,
+          "executionScore": 80,
+          "gcScore": 100,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "26-0",
+              "stageID": "26",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 231,
+              "totalDurationOfAllTasks": 77,
+              "actualExecutionDurationOfAllTasks": 62,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 0,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 62,
+              "minTaskTime": 62,
+              "averageTaskTime": 62,
+              "medianTaskTime": 62,
+              "numberOfTasks": 1,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 0,
+              "executionScore": 80,
+              "gcScore": 100,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "27",
+          "status": "SUCCESS",
+          "totalStageDuration": 4150,
+          "totalDurationOfAllTasks": 151760,
+          "actualExecutionDurationOfAllTasks": 46257,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 1635,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 4150,
+          "minAttemptTime": 4150,
+          "averageAttemptTime": 4150,
+          "medianAttemptTime": 4150,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 22,
+          "executionScore": 30,
+          "gcScore": 98,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "27-0",
+              "stageID": "27",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 4150,
+              "totalDurationOfAllTasks": 151760,
+              "actualExecutionDurationOfAllTasks": 46257,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 1635,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 233,
+              "minTaskTime": 3,
+              "averageTaskTime": 6,
+              "medianTaskTime": 6,
+              "numberOfTasks": 6879,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 22,
+              "executionScore": 30,
+              "gcScore": 98,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "28",
+          "status": "SUCCESS",
+          "totalStageDuration": 97,
+          "totalDurationOfAllTasks": 59,
+          "actualExecutionDurationOfAllTasks": 36,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 0,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 97,
+          "minAttemptTime": 97,
+          "averageAttemptTime": 97,
+          "medianAttemptTime": 97,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 0,
+          "executionScore": 61,
+          "gcScore": 100,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "28-0",
+              "stageID": "28",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 97,
+              "totalDurationOfAllTasks": 59,
+              "actualExecutionDurationOfAllTasks": 36,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 0,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 36,
+              "minTaskTime": 36,
+              "averageTaskTime": 36,
+              "medianTaskTime": 36,
+              "numberOfTasks": 1,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 0,
+              "executionScore": 61,
+              "gcScore": 100,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "29",
+          "status": "SUCCESS",
+          "totalStageDuration": 6065,
+          "totalDurationOfAllTasks": 158819,
+          "actualExecutionDurationOfAllTasks": 39204,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 892,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 6065,
+          "minAttemptTime": 6065,
+          "averageAttemptTime": 6065,
+          "medianAttemptTime": 6065,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 16,
+          "executionScore": 24,
+          "gcScore": 99,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "29-0",
+              "stageID": "29",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 6065,
+              "totalDurationOfAllTasks": 158819,
+              "actualExecutionDurationOfAllTasks": 39204,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 892,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 116,
+              "minTaskTime": 3,
+              "averageTaskTime": 6,
+              "medianTaskTime": 6,
+              "numberOfTasks": 6229,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 16,
+              "executionScore": 24,
+              "gcScore": 99,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "35",
+          "status": "SUCCESS",
+          "totalStageDuration": 42,
+          "totalDurationOfAllTasks": 2925,
+          "actualExecutionDurationOfAllTasks": 1373,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 0,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 42,
+          "minAttemptTime": 42,
+          "averageAttemptTime": 42,
+          "medianAttemptTime": 42,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 43,
+          "executionScore": 46,
+          "gcScore": 100,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "35-0",
+              "stageID": "35",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 42,
+              "totalDurationOfAllTasks": 2925,
+              "actualExecutionDurationOfAllTasks": 1373,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 0,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 25,
+              "minTaskTime": 2,
+              "averageTaskTime": 10,
+              "medianTaskTime": 10,
+              "numberOfTasks": 128,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 43,
+              "executionScore": 46,
+              "gcScore": 100,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "36",
+          "status": "SUCCESS",
+          "totalStageDuration": 176,
+          "totalDurationOfAllTasks": 65,
+          "actualExecutionDurationOfAllTasks": 47,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 0,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 176,
+          "minAttemptTime": 176,
+          "averageAttemptTime": 176,
+          "medianAttemptTime": 176,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 0,
+          "executionScore": 72,
+          "gcScore": 100,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "36-0",
+              "stageID": "36",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 176,
+              "totalDurationOfAllTasks": 65,
+              "actualExecutionDurationOfAllTasks": 47,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 0,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 47,
+              "minTaskTime": 47,
+              "averageTaskTime": 47,
+              "medianTaskTime": 47,
+              "numberOfTasks": 1,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 0,
+              "executionScore": 72,
+              "gcScore": 100,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "37",
+          "status": "SUCCESS",
+          "totalStageDuration": 18493,
+          "totalDurationOfAllTasks": 215239,
+          "actualExecutionDurationOfAllTasks": 102987,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 2383,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 18493,
+          "minAttemptTime": 18493,
+          "averageAttemptTime": 18493,
+          "medianAttemptTime": 18493,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 7,
+          "executionScore": 47,
+          "gcScore": 98,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "37-0",
+              "stageID": "37",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 18493,
+              "totalDurationOfAllTasks": 215239,
+              "actualExecutionDurationOfAllTasks": 102987,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 2383,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 12475,
+              "minTaskTime": 3,
+              "averageTaskTime": 13,
+              "medianTaskTime": 6,
+              "numberOfTasks": 7463,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 7,
+              "executionScore": 47,
+              "gcScore": 98,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "38",
+          "status": "SUCCESS",
+          "totalStageDuration": 272471,
+          "totalDurationOfAllTasks": 27687034,
+          "actualExecutionDurationOfAllTasks": 27542685,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 181793,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 272471,
+          "minAttemptTime": 272471,
+          "averageAttemptTime": 272471,
+          "medianAttemptTime": 272471,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 63,
+          "executionScore": 99,
+          "gcScore": 99,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "38-0",
+              "stageID": "38",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 272471,
+              "totalDurationOfAllTasks": 27687034,
+              "actualExecutionDurationOfAllTasks": 27542685,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 181793,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 272060,
+              "minTaskTime": 5060,
+              "averageTaskTime": 26897,
+              "medianTaskTime": 8826,
+              "numberOfTasks": 1024,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 63,
+              "executionScore": 99,
+              "gcScore": 99,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "jobID": "4",
+      "appID": "eventlog-overpartitioned",
+      "status": "SUCCESS",
+      "totalJobDuration": 1835,
+      "totalDurationOfAllTasks": 130658,
+      "actualExecutionDurationOfAllTasks": 8503,
+      "totalFailedStagesDuration": 0,
+      "totalGCDuration": 3956,
+      "maxStageDuration": 1835,
+      "minStageDuration": 1835,
+      "averageStageDuration": 1835,
+      "medianStageDuration": 1835,
+      "numberOfStages": 1,
+      "numberOfFailedStages": 0,
+      "numberOfAvailableCores": 160,
+      "taskScore": 44,
+      "executionScore": 6,
+      "gcScore": 96,
+      "tasksFailureMetrics": {
+        
+      },
+      "stageReportList": [
+        {
+          "stageID": "55",
+          "status": "SUCCESS",
+          "totalStageDuration": 1835,
+          "totalDurationOfAllTasks": 130658,
+          "actualExecutionDurationOfAllTasks": 8503,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 3956,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 1835,
+          "minAttemptTime": 1835,
+          "averageAttemptTime": 1835,
+          "medianAttemptTime": 1835,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 44,
+          "executionScore": 6,
+          "gcScore": 96,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "55-0",
+              "stageID": "55",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 1835,
+              "totalDurationOfAllTasks": 130658,
+              "actualExecutionDurationOfAllTasks": 8503,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 3956,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 24,
+              "minTaskTime": 4,
+              "averageTaskTime": 8,
+              "medianTaskTime": 8,
+              "numberOfTasks": 1024,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 44,
+              "executionScore": 6,
+              "gcScore": 96,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "jobID": "5",
+      "appID": "eventlog-overpartitioned",
+      "status": "SUCCESS",
+      "totalJobDuration": 250403,
+      "totalDurationOfAllTasks": 25743010,
+      "actualExecutionDurationOfAllTasks": 25618991,
+      "totalFailedStagesDuration": 0,
+      "totalGCDuration": 246398,
+      "maxStageDuration": 250403,
+      "minStageDuration": 250403,
+      "averageStageDuration": 250403,
+      "medianStageDuration": 250403,
+      "numberOfStages": 1,
+      "numberOfFailedStages": 0,
+      "numberOfAvailableCores": 160,
+      "taskScore": 64,
+      "executionScore": 99,
+      "gcScore": 99,
+      "tasksFailureMetrics": {
+        
+      },
+      "stageReportList": [
+        {
+          "stageID": "72",
+          "status": "SUCCESS",
+          "totalStageDuration": 250403,
+          "totalDurationOfAllTasks": 25743010,
+          "actualExecutionDurationOfAllTasks": 25618991,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 246398,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 250403,
+          "minAttemptTime": 250403,
+          "averageAttemptTime": 250403,
+          "medianAttemptTime": 250403,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 64,
+          "executionScore": 99,
+          "gcScore": 99,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "72-0",
+              "stageID": "72",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 250403,
+              "totalDurationOfAllTasks": 25743010,
+              "actualExecutionDurationOfAllTasks": 25618991,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 246398,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 238170,
+              "minTaskTime": 4036,
+              "averageTaskTime": 25018,
+              "medianTaskTime": 9495,
+              "numberOfTasks": 1024,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 64,
+              "executionScore": 99,
+              "gcScore": 99,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "jobID": "6",
+      "appID": "eventlog-overpartitioned",
+      "status": "SUCCESS",
+      "totalJobDuration": 1387,
+      "totalDurationOfAllTasks": 121843,
+      "actualExecutionDurationOfAllTasks": 7938,
+      "totalFailedStagesDuration": 0,
+      "totalGCDuration": 1295,
+      "maxStageDuration": 1387,
+      "minStageDuration": 1387,
+      "averageStageDuration": 1387,
+      "medianStageDuration": 1387,
+      "numberOfStages": 1,
+      "numberOfFailedStages": 0,
+      "numberOfAvailableCores": 160,
+      "taskScore": 54,
+      "executionScore": 6,
+      "gcScore": 98,
+      "tasksFailureMetrics": {
+        
+      },
+      "stageReportList": [
+        {
+          "stageID": "89",
+          "status": "SUCCESS",
+          "totalStageDuration": 1387,
+          "totalDurationOfAllTasks": 121843,
+          "actualExecutionDurationOfAllTasks": 7938,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 1295,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 1387,
+          "minAttemptTime": 1387,
+          "averageAttemptTime": 1387,
+          "medianAttemptTime": 1387,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 54,
+          "executionScore": 6,
+          "gcScore": 98,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "89-0",
+              "stageID": "89",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 1387,
+              "totalDurationOfAllTasks": 121843,
+              "actualExecutionDurationOfAllTasks": 7938,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 1295,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 88,
+              "minTaskTime": 4,
+              "averageTaskTime": 7,
+              "medianTaskTime": 7,
+              "numberOfTasks": 1024,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 54,
+              "executionScore": 6,
+              "gcScore": 98,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "jobID": "10",
+      "appID": "eventlog-overpartitioned",
+      "status": "SUCCESS",
+      "totalJobDuration": 151,
+      "totalDurationOfAllTasks": 146,
+      "actualExecutionDurationOfAllTasks": 128,
+      "totalFailedStagesDuration": 0,
+      "totalGCDuration": 0,
+      "maxStageDuration": 151,
+      "minStageDuration": 151,
+      "averageStageDuration": 151,
+      "medianStageDuration": 151,
+      "numberOfStages": 1,
+      "numberOfFailedStages": 0,
+      "numberOfAvailableCores": 160,
+      "taskScore": 0,
+      "executionScore": 87,
+      "gcScore": 100,
+      "tasksFailureMetrics": {
+        
+      },
+      "stageReportList": [
+        {
+          "stageID": "153",
+          "status": "SUCCESS",
+          "totalStageDuration": 151,
+          "totalDurationOfAllTasks": 146,
+          "actualExecutionDurationOfAllTasks": 128,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 0,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 151,
+          "minAttemptTime": 151,
+          "averageAttemptTime": 151,
+          "medianAttemptTime": 151,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 0,
+          "executionScore": 87,
+          "gcScore": 100,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "153-0",
+              "stageID": "153",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 151,
+              "totalDurationOfAllTasks": 146,
+              "actualExecutionDurationOfAllTasks": 128,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 0,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 128,
+              "minTaskTime": 128,
+              "averageTaskTime": 128,
+              "medianTaskTime": 128,
+              "numberOfTasks": 1,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 0,
+              "executionScore": 87,
+              "gcScore": 100,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "jobID": "7",
+      "appID": "eventlog-overpartitioned",
+      "status": "SUCCESS",
+      "totalJobDuration": 1497,
+      "totalDurationOfAllTasks": 127720,
+      "actualExecutionDurationOfAllTasks": 9389,
+      "totalFailedStagesDuration": 0,
+      "totalGCDuration": 2215,
+      "maxStageDuration": 1497,
+      "minStageDuration": 1497,
+      "averageStageDuration": 1497,
+      "medianStageDuration": 1497,
+      "numberOfStages": 1,
+      "numberOfFailedStages": 0,
+      "numberOfAvailableCores": 160,
+      "taskScore": 53,
+      "executionScore": 7,
+      "gcScore": 98,
+      "tasksFailureMetrics": {
+        
+      },
+      "stageReportList": [
+        {
+          "stageID": "106",
+          "status": "SUCCESS",
+          "totalStageDuration": 1497,
+          "totalDurationOfAllTasks": 127720,
+          "actualExecutionDurationOfAllTasks": 9389,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 2215,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 1497,
+          "minAttemptTime": 1497,
+          "averageAttemptTime": 1497,
+          "medianAttemptTime": 1497,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 53,
+          "executionScore": 7,
+          "gcScore": 98,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "106-0",
+              "stageID": "106",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 1497,
+              "totalDurationOfAllTasks": 127720,
+              "actualExecutionDurationOfAllTasks": 9389,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 2215,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 22,
+              "minTaskTime": 5,
+              "averageTaskTime": 9,
+              "medianTaskTime": 8,
+              "numberOfTasks": 1024,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 53,
+              "executionScore": 7,
+              "gcScore": 98,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "jobID": "11",
+      "appID": "eventlog-overpartitioned",
+      "status": "SUCCESS",
+      "totalJobDuration": 3760,
+      "totalDurationOfAllTasks": 333264,
+      "actualExecutionDurationOfAllTasks": 32880,
+      "totalFailedStagesDuration": 0,
+      "totalGCDuration": 15469,
+      "maxStageDuration": 3037,
+      "minStageDuration": 56,
+      "averageStageDuration": 752,
+      "medianStageDuration": 210,
+      "numberOfStages": 5,
+      "numberOfFailedStages": 0,
+      "numberOfAvailableCores": 160,
+      "taskScore": 55,
+      "executionScore": 9,
+      "gcScore": 95,
+      "tasksFailureMetrics": {
+        
+      },
+      "stageReportList": [
+        {
+          "stageID": "173",
+          "status": "SUCCESS",
+          "totalStageDuration": 111,
+          "totalDurationOfAllTasks": 13911,
+          "actualExecutionDurationOfAllTasks": 3830,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 76,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 111,
+          "minAttemptTime": 111,
+          "averageAttemptTime": 111,
+          "medianAttemptTime": 111,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 78,
+          "executionScore": 27,
+          "gcScore": 99,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "173-0",
+              "stageID": "173",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 111,
+              "totalDurationOfAllTasks": 13911,
+              "actualExecutionDurationOfAllTasks": 3830,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 76,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 28,
+              "minTaskTime": 4,
+              "averageTaskTime": 6,
+              "medianTaskTime": 6,
+              "numberOfTasks": 613,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 78,
+              "executionScore": 27,
+              "gcScore": 99,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "185",
+          "status": "SUCCESS",
+          "totalStageDuration": 210,
+          "totalDurationOfAllTasks": 17632,
+          "actualExecutionDurationOfAllTasks": 9243,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 20,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 210,
+          "minAttemptTime": 210,
+          "averageAttemptTime": 210,
+          "medianAttemptTime": 210,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 52,
+          "executionScore": 52,
+          "gcScore": 99,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "185-0",
+              "stageID": "185",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 210,
+              "totalDurationOfAllTasks": 17632,
+              "actualExecutionDurationOfAllTasks": 9243,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 20,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 73,
+              "minTaskTime": 1,
+              "averageTaskTime": 10,
+              "medianTaskTime": 3,
+              "numberOfTasks": 858,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 52,
+              "executionScore": 52,
+              "gcScore": 99,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "186",
+          "status": "SUCCESS",
+          "totalStageDuration": 346,
+          "totalDurationOfAllTasks": 18049,
+          "actualExecutionDurationOfAllTasks": 4535,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 25,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 346,
+          "minAttemptTime": 346,
+          "averageAttemptTime": 346,
+          "medianAttemptTime": 346,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 32,
+          "executionScore": 25,
+          "gcScore": 99,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "186-0",
+              "stageID": "186",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 346,
+              "totalDurationOfAllTasks": 18049,
+              "actualExecutionDurationOfAllTasks": 4535,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 25,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 40,
+              "minTaskTime": 3,
+              "averageTaskTime": 6,
+              "medianTaskTime": 6,
+              "numberOfTasks": 702,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 32,
+              "executionScore": 25,
+              "gcScore": 99,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "188",
+          "status": "SUCCESS",
+          "totalStageDuration": 3037,
+          "totalDurationOfAllTasks": 283619,
+          "actualExecutionDurationOfAllTasks": 15230,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 15348,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 3037,
+          "minAttemptTime": 3037,
+          "averageAttemptTime": 3037,
+          "medianAttemptTime": 3037,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 58,
+          "executionScore": 5,
+          "gcScore": 94,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "188-0",
+              "stageID": "188",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 3037,
+              "totalDurationOfAllTasks": 283619,
+              "actualExecutionDurationOfAllTasks": 15230,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 15348,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 146,
+              "minTaskTime": 2,
+              "averageTaskTime": 7,
+              "medianTaskTime": 6,
+              "numberOfTasks": 2069,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 58,
+              "executionScore": 5,
+              "gcScore": 94,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "189",
+          "status": "SUCCESS",
+          "totalStageDuration": 56,
+          "totalDurationOfAllTasks": 53,
+          "actualExecutionDurationOfAllTasks": 42,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 0,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 56,
+          "minAttemptTime": 56,
+          "averageAttemptTime": 56,
+          "medianAttemptTime": 56,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 0,
+          "executionScore": 79,
+          "gcScore": 100,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "189-0",
+              "stageID": "189",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 56,
+              "totalDurationOfAllTasks": 53,
+              "actualExecutionDurationOfAllTasks": 42,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 0,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 42,
+              "minTaskTime": 42,
+              "averageTaskTime": 42,
+              "medianTaskTime": 42,
+              "numberOfTasks": 1,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 0,
+              "executionScore": 79,
+              "gcScore": 100,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "jobID": "8",
+      "appID": "eventlog-overpartitioned",
+      "status": "SUCCESS",
+      "totalJobDuration": 154,
+      "totalDurationOfAllTasks": 15042,
+      "actualExecutionDurationOfAllTasks": 8615,
+      "totalFailedStagesDuration": 0,
+      "totalGCDuration": 0,
+      "maxStageDuration": 154,
+      "minStageDuration": 154,
+      "averageStageDuration": 154,
+      "medianStageDuration": 154,
+      "numberOfStages": 1,
+      "numberOfFailedStages": 0,
+      "numberOfAvailableCores": 160,
+      "taskScore": 61,
+      "executionScore": 57,
+      "gcScore": 100,
+      "tasksFailureMetrics": {
+        
+      },
+      "stageReportList": [
+        {
+          "stageID": "123",
+          "status": "SUCCESS",
+          "totalStageDuration": 154,
+          "totalDurationOfAllTasks": 15042,
+          "actualExecutionDurationOfAllTasks": 8615,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 0,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 154,
+          "minAttemptTime": 154,
+          "averageAttemptTime": 154,
+          "medianAttemptTime": 154,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 61,
+          "executionScore": 57,
+          "gcScore": 100,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "123-0",
+              "stageID": "123",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 154,
+              "totalDurationOfAllTasks": 15042,
+              "actualExecutionDurationOfAllTasks": 8615,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 0,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 27,
+              "minTaskTime": 4,
+              "averageTaskTime": 8,
+              "medianTaskTime": 7,
+              "numberOfTasks": 1024,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 61,
+              "executionScore": 57,
+              "gcScore": 100,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "jobID": "12",
+      "appID": "eventlog-overpartitioned",
+      "status": "SUCCESS",
+      "totalJobDuration": 33,
+      "totalDurationOfAllTasks": 104,
+      "actualExecutionDurationOfAllTasks": 68,
+      "totalFailedStagesDuration": 0,
+      "totalGCDuration": 0,
+      "maxStageDuration": 33,
+      "minStageDuration": 33,
+      "averageStageDuration": 33,
+      "medianStageDuration": 33,
+      "numberOfStages": 1,
+      "numberOfFailedStages": 0,
+      "numberOfAvailableCores": 160,
+      "taskScore": 1,
+      "executionScore": 65,
+      "gcScore": 100,
+      "tasksFailureMetrics": {
+        
+      },
+      "stageReportList": [
+        {
+          "stageID": "225",
+          "status": "SUCCESS",
+          "totalStageDuration": 33,
+          "totalDurationOfAllTasks": 104,
+          "actualExecutionDurationOfAllTasks": 68,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 0,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 33,
+          "minAttemptTime": 33,
+          "averageAttemptTime": 33,
+          "medianAttemptTime": 33,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 1,
+          "executionScore": 65,
+          "gcScore": 100,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "225-0",
+              "stageID": "225",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 33,
+              "totalDurationOfAllTasks": 104,
+              "actualExecutionDurationOfAllTasks": 68,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 0,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 18,
+              "minTaskTime": 16,
+              "averageTaskTime": 17,
+              "medianTaskTime": 17,
+              "numberOfTasks": 4,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 1,
+              "executionScore": 65,
+              "gcScore": 100,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "jobID": "9",
+      "appID": "eventlog-overpartitioned",
+      "status": "SUCCESS",
+      "totalJobDuration": 48369854,
+      "totalDurationOfAllTasks": 1470028896,
+      "actualExecutionDurationOfAllTasks": 1402023816,
+      "totalFailedStagesDuration": 0,
+      "totalGCDuration": 583192427,
+      "maxStageDuration": 12121574,
+      "minStageDuration": 258,
+      "averageStageDuration": 2198629,
+      "medianStageDuration": 13765,
+      "numberOfStages": 22,
+      "numberOfFailedStages": 0,
+      "numberOfAvailableCores": 160,
+      "taskScore": 18,
+      "executionScore": 95,
+      "gcScore": 60,
+      "tasksFailureMetrics": {
+        "ExecutorLostFailure": {
+          "count": 10
+        },
+        "ExceptionFailure": {
+          "count": 4
+        },
+        "FetchFailed": {
+          "count": 19
+        }
+      },
+      "stageReportList": [
+        {
+          "stageID": "125",
+          "status": "SUCCESS",
+          "totalStageDuration": 8550,
+          "totalDurationOfAllTasks": 23456,
+          "actualExecutionDurationOfAllTasks": 18766,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 1090,
+          "numberOfStageRetries": 1,
+          "maxAttemptTime": 4372,
+          "minAttemptTime": 4178,
+          "averageAttemptTime": 4275,
+          "medianAttemptTime": 4275,
+          "numberOfAttempts": 2,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 1,
+          "executionScore": 80,
+          "gcScore": 95,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "125-1",
+              "stageID": "125",
+              "stageAttemptID": "1",
+              "status": "SUCCESS",
+              "timeTaken": 4178,
+              "totalDurationOfAllTasks": 10453,
+              "actualExecutionDurationOfAllTasks": 8117,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 550,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 2360,
+              "minTaskTime": 5,
+              "averageTaskTime": 21,
+              "medianTaskTime": 10,
+              "numberOfTasks": 376,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 1,
+              "executionScore": 77,
+              "gcScore": 94,
+              "tasksFailureMetrics": {
+                
+              }
+            },
+            {
+              "stageAttemptUID": "125-0",
+              "stageID": "125",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 4372,
+              "totalDurationOfAllTasks": 13003,
+              "actualExecutionDurationOfAllTasks": 10649,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 540,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 2354,
+              "minTaskTime": 5,
+              "averageTaskTime": 31,
+              "medianTaskTime": 11,
+              "numberOfTasks": 339,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 1,
+              "executionScore": 81,
+              "gcScore": 95,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "127",
+          "status": "SUCCESS",
+          "totalStageDuration": 8569,
+          "totalDurationOfAllTasks": 153,
+          "actualExecutionDurationOfAllTasks": 63,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 0,
+          "numberOfStageRetries": 1,
+          "maxAttemptTime": 4382,
+          "minAttemptTime": 4187,
+          "averageAttemptTime": 4284,
+          "medianAttemptTime": 4284,
+          "numberOfAttempts": 2,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 0,
+          "executionScore": 41,
+          "gcScore": 100,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "127-0",
+              "stageID": "127",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 4382,
+              "totalDurationOfAllTasks": 77,
+              "actualExecutionDurationOfAllTasks": 32,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 0,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 7,
+              "minTaskTime": 6,
+              "averageTaskTime": 6,
+              "medianTaskTime": 6,
+              "numberOfTasks": 5,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 0,
+              "executionScore": 41,
+              "gcScore": 100,
+              "tasksFailureMetrics": {
+                
+              }
+            },
+            {
+              "stageAttemptUID": "127-1",
+              "stageID": "127",
+              "stageAttemptID": "1",
+              "status": "SUCCESS",
+              "timeTaken": 4187,
+              "totalDurationOfAllTasks": 76,
+              "actualExecutionDurationOfAllTasks": 31,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 0,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 7,
+              "minTaskTime": 6,
+              "averageTaskTime": 6,
+              "medianTaskTime": 6,
+              "numberOfTasks": 5,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 0,
+              "executionScore": 40,
+              "gcScore": 100,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "128",
+          "status": "SUCCESS",
+          "totalStageDuration": 961,
+          "totalDurationOfAllTasks": 2712,
+          "actualExecutionDurationOfAllTasks": 2635,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 0,
+          "numberOfStageRetries": 1,
+          "maxAttemptTime": 754,
+          "minAttemptTime": 207,
+          "averageAttemptTime": 480,
+          "medianAttemptTime": 480,
+          "numberOfAttempts": 2,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 1,
+          "executionScore": 97,
+          "gcScore": 100,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "128-0",
+              "stageID": "128",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 754,
+              "totalDurationOfAllTasks": 1936,
+              "actualExecutionDurationOfAllTasks": 1921,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 0,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 699,
+              "minTaskTime": 11,
+              "averageTaskTime": 480,
+              "medianTaskTime": 667,
+              "numberOfTasks": 4,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 1,
+              "executionScore": 99,
+              "gcScore": 100,
+              "tasksFailureMetrics": {
+                
+              }
+            },
+            {
+              "stageAttemptUID": "128-1",
+              "stageID": "128",
+              "stageAttemptID": "1",
+              "status": "SUCCESS",
+              "timeTaken": 207,
+              "totalDurationOfAllTasks": 776,
+              "actualExecutionDurationOfAllTasks": 714,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 0,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 182,
+              "minTaskTime": 177,
+              "averageTaskTime": 178,
+              "medianTaskTime": 180,
+              "numberOfTasks": 4,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 2,
+              "executionScore": 92,
+              "gcScore": 100,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "130",
+          "status": "SUCCESS",
+          "totalStageDuration": 4197,
+          "totalDurationOfAllTasks": 72,
+          "actualExecutionDurationOfAllTasks": 30,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 0,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 4197,
+          "minAttemptTime": 4197,
+          "averageAttemptTime": 4197,
+          "medianAttemptTime": 4197,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 0,
+          "executionScore": 41,
+          "gcScore": 100,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "130-0",
+              "stageID": "130",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 4197,
+              "totalDurationOfAllTasks": 72,
+              "actualExecutionDurationOfAllTasks": 30,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 0,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 6,
+              "minTaskTime": 6,
+              "averageTaskTime": 6,
+              "medianTaskTime": 6,
+              "numberOfTasks": 5,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 0,
+              "executionScore": 41,
+              "gcScore": 100,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "131",
+          "status": "SUCCESS",
+          "totalStageDuration": 5808,
+          "totalDurationOfAllTasks": 2969,
+          "actualExecutionDurationOfAllTasks": 2919,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 0,
+          "numberOfStageRetries": 1,
+          "maxAttemptTime": 5095,
+          "minAttemptTime": 713,
+          "averageAttemptTime": 2904,
+          "medianAttemptTime": 2904,
+          "numberOfAttempts": 2,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 0,
+          "executionScore": 98,
+          "gcScore": 100,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "131-0",
+              "stageID": "131",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 5095,
+              "totalDurationOfAllTasks": 1728,
+              "actualExecutionDurationOfAllTasks": 1692,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 0,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 719,
+              "minTaskTime": 79,
+              "averageTaskTime": 423,
+              "medianTaskTime": 718,
+              "numberOfTasks": 4,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 0,
+              "executionScore": 97,
+              "gcScore": 100,
+              "tasksFailureMetrics": {
+                
+              }
+            },
+            {
+              "stageAttemptUID": "131-1",
+              "stageID": "131",
+              "stageAttemptID": "1",
+              "status": "SUCCESS",
+              "timeTaken": 713,
+              "totalDurationOfAllTasks": 1241,
+              "actualExecutionDurationOfAllTasks": 1227,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 0,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 519,
+              "minTaskTime": 28,
+              "averageTaskTime": 306,
+              "medianTaskTime": 517,
+              "numberOfTasks": 4,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 1,
+              "executionScore": 98,
+              "gcScore": 100,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "133",
+          "status": "SUCCESS",
+          "totalStageDuration": 11483,
+          "totalDurationOfAllTasks": 9024,
+          "actualExecutionDurationOfAllTasks": 6453,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 700,
+          "numberOfStageRetries": 1,
+          "maxAttemptTime": 5877,
+          "minAttemptTime": 5606,
+          "averageAttemptTime": 5741,
+          "medianAttemptTime": 5741,
+          "numberOfAttempts": 2,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 0,
+          "executionScore": 71,
+          "gcScore": 92,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "133-0",
+              "stageID": "133",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 5877,
+              "totalDurationOfAllTasks": 3931,
+              "actualExecutionDurationOfAllTasks": 2722,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 345,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 78,
+              "minTaskTime": 4,
+              "averageTaskTime": 8,
+              "medianTaskTime": 6,
+              "numberOfTasks": 324,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 0,
+              "executionScore": 69,
+              "gcScore": 91,
+              "tasksFailureMetrics": {
+                
+              }
+            },
+            {
+              "stageAttemptUID": "133-1",
+              "stageID": "133",
+              "stageAttemptID": "1",
+              "status": "SUCCESS",
+              "timeTaken": 5606,
+              "totalDurationOfAllTasks": 5093,
+              "actualExecutionDurationOfAllTasks": 3731,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 355,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 480,
+              "minTaskTime": 4,
+              "averageTaskTime": 9,
+              "medianTaskTime": 5,
+              "numberOfTasks": 402,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 0,
+              "executionScore": 73,
+              "gcScore": 93,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "135",
+          "status": "SUCCESS",
+          "totalStageDuration": 12930,
+          "totalDurationOfAllTasks": 7344,
+          "actualExecutionDurationOfAllTasks": 4721,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 265,
+          "numberOfStageRetries": 1,
+          "maxAttemptTime": 6536,
+          "minAttemptTime": 6394,
+          "averageAttemptTime": 6465,
+          "medianAttemptTime": 6465,
+          "numberOfAttempts": 2,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 0,
+          "executionScore": 64,
+          "gcScore": 96,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "135-0",
+              "stageID": "135",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 6536,
+              "totalDurationOfAllTasks": 3338,
+              "actualExecutionDurationOfAllTasks": 2024,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 0,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 40,
+              "minTaskTime": 4,
+              "averageTaskTime": 6,
+              "medianTaskTime": 5,
+              "numberOfTasks": 316,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 0,
+              "executionScore": 60,
+              "gcScore": 100,
+              "tasksFailureMetrics": {
+                
+              }
+            },
+            {
+              "stageAttemptUID": "135-1",
+              "stageID": "135",
+              "stageAttemptID": "1",
+              "status": "SUCCESS",
+              "timeTaken": 6394,
+              "totalDurationOfAllTasks": 4006,
+              "actualExecutionDurationOfAllTasks": 2697,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 265,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 58,
+              "minTaskTime": 4,
+              "averageTaskTime": 6,
+              "medianTaskTime": 5,
+              "numberOfTasks": 406,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 0,
+              "executionScore": 67,
+              "gcScore": 93,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "137",
+          "status": "SUCCESS",
+          "totalStageDuration": 14600,
+          "totalDurationOfAllTasks": 8214,
+          "actualExecutionDurationOfAllTasks": 5636,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 570,
+          "numberOfStageRetries": 1,
+          "maxAttemptTime": 7494,
+          "minAttemptTime": 7106,
+          "averageAttemptTime": 7300,
+          "medianAttemptTime": 7300,
+          "numberOfAttempts": 2,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 0,
+          "executionScore": 68,
+          "gcScore": 93,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "137-0",
+              "stageID": "137",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 7494,
+              "totalDurationOfAllTasks": 4825,
+              "actualExecutionDurationOfAllTasks": 3302,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 305,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 67,
+              "minTaskTime": 4,
+              "averageTaskTime": 8,
+              "medianTaskTime": 5,
+              "numberOfTasks": 383,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 0,
+              "executionScore": 68,
+              "gcScore": 93,
+              "tasksFailureMetrics": {
+                
+              }
+            },
+            {
+              "stageAttemptUID": "137-1",
+              "stageID": "137",
+              "stageAttemptID": "1",
+              "status": "SUCCESS",
+              "timeTaken": 7106,
+              "totalDurationOfAllTasks": 3389,
+              "actualExecutionDurationOfAllTasks": 2334,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 265,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 60,
+              "minTaskTime": 4,
+              "averageTaskTime": 6,
+              "medianTaskTime": 5,
+              "numberOfTasks": 348,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 0,
+              "executionScore": 68,
+              "gcScore": 92,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "139",
+          "status": "SUCCESS",
+          "totalStageDuration": 16205,
+          "totalDurationOfAllTasks": 8058,
+          "actualExecutionDurationOfAllTasks": 4971,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 768,
+          "numberOfStageRetries": 1,
+          "maxAttemptTime": 8534,
+          "minAttemptTime": 7671,
+          "averageAttemptTime": 8102,
+          "medianAttemptTime": 8102,
+          "numberOfAttempts": 2,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 0,
+          "executionScore": 61,
+          "gcScore": 90,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "139-0",
+              "stageID": "139",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 8534,
+              "totalDurationOfAllTasks": 4964,
+              "actualExecutionDurationOfAllTasks": 3023,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 768,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 216,
+              "minTaskTime": 4,
+              "averageTaskTime": 7,
+              "medianTaskTime": 5,
+              "numberOfTasks": 378,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 0,
+              "executionScore": 60,
+              "gcScore": 84,
+              "tasksFailureMetrics": {
+                
+              }
+            },
+            {
+              "stageAttemptUID": "139-1",
+              "stageID": "139",
+              "stageAttemptID": "1",
+              "status": "SUCCESS",
+              "timeTaken": 7671,
+              "totalDurationOfAllTasks": 3094,
+              "actualExecutionDurationOfAllTasks": 1948,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 0,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 32,
+              "minTaskTime": 4,
+              "averageTaskTime": 5,
+              "medianTaskTime": 5,
+              "numberOfTasks": 362,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 0,
+              "executionScore": 62,
+              "gcScore": 100,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "140",
+          "status": "SUCCESS",
+          "totalStageDuration": 211692,
+          "totalDurationOfAllTasks": 529907,
+          "actualExecutionDurationOfAllTasks": 508958,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 213527,
+          "numberOfStageRetries": 1,
+          "maxAttemptTime": 197008,
+          "minAttemptTime": 14684,
+          "averageAttemptTime": 105846,
+          "medianAttemptTime": 105846,
+          "numberOfAttempts": 2,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 1,
+          "executionScore": 96,
+          "gcScore": 59,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "140-0",
+              "stageID": "140",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 197008,
+              "totalDurationOfAllTasks": 526753,
+              "actualExecutionDurationOfAllTasks": 507317,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 213028,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 53519,
+              "minTaskTime": 10,
+              "averageTaskTime": 495,
+              "medianTaskTime": 18,
+              "numberOfTasks": 1024,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 1,
+              "executionScore": 96,
+              "gcScore": 59,
+              "tasksFailureMetrics": {
+                
+              }
+            },
+            {
+              "stageAttemptUID": "140-1",
+              "stageID": "140",
+              "stageAttemptID": "1",
+              "status": "SUCCESS",
+              "timeTaken": 14684,
+              "totalDurationOfAllTasks": 3154,
+              "actualExecutionDurationOfAllTasks": 1641,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 499,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 705,
+              "minTaskTime": 12,
+              "averageTaskTime": 71,
+              "medianTaskTime": 32,
+              "numberOfTasks": 23,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 0,
+              "executionScore": 52,
+              "gcScore": 84,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "141",
+          "status": "SUCCESS",
+          "totalStageDuration": 12121574,
+          "totalDurationOfAllTasks": 1463354925,
+          "actualExecutionDurationOfAllTasks": 1395805353,
+          "totalFailedAttemptsDuration": 7454792,
+          "totalGCDuration": 582710820,
+          "numberOfStageRetries": 2,
+          "maxAttemptTime": 4666782,
+          "minAttemptTime": 3041234,
+          "averageAttemptTime": 4040524,
+          "medianAttemptTime": 4413558,
+          "numberOfAttempts": 3,
+          "numberOfFailedAttempts": 2,
+          "numberOfAvailableCores": 160,
+          "taskScore": 75,
+          "executionScore": 95,
+          "gcScore": 60,
+          "tasksFailureMetrics": {
+            "ExecutorLostFailure": {
+              "count": 10
+            },
+            "ExceptionFailure": {
+              "count": 4
+            },
+            "FetchFailed": {
+              "count": 13
+            }
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "141-0",
+              "stageID": "141",
+              "stageAttemptID": "0",
+              "status": "FAILED",
+              "timeTaken": 3041234,
+              "totalDurationOfAllTasks": 589630833,
+              "actualExecutionDurationOfAllTasks": 563765433,
+              "totalFailedTasksDuration": 6515404,
+              "totalGCDuration": 243958008,
+              "numberOfTaskRetries": 7,
+              "maxTaskTime": 5882234,
+              "minTaskTime": 0,
+              "averageTaskTime": 1217635,
+              "medianTaskTime": 1170540,
+              "numberOfTasks": 470,
+              "numberOfFailedTasks": 7,
+              "numberOfAvailableCores": 160,
+              "taskScore": 121,
+              "executionScore": 95,
+              "gcScore": 58,
+              "tasksFailureMetrics": {
+                "ExecutorLostFailure": {
+                  "count": 5
+                },
+                "FetchFailed": {
+                  "count": 7
+                }
+              }
+            },
+            {
+              "stageAttemptUID": "141-1",
+              "stageID": "141",
+              "stageAttemptID": "1",
+              "status": "FAILED",
+              "timeTaken": 4413558,
+              "totalDurationOfAllTasks": 667184104,
+              "actualExecutionDurationOfAllTasks": 625586303,
+              "totalFailedTasksDuration": 1781139,
+              "totalGCDuration": 261660201,
+              "numberOfTaskRetries": 6,
+              "maxTaskTime": 5275242,
+              "minTaskTime": 0,
+              "averageTaskTime": 1080459,
+              "medianTaskTime": 835999,
+              "numberOfTasks": 585,
+              "numberOfFailedTasks": 10,
+              "numberOfAvailableCores": 160,
+              "taskScore": 94,
+              "executionScore": 93,
+              "gcScore": 60,
+              "tasksFailureMetrics": {
+                "ExecutorLostFailure": {
+                  "count": 5
+                },
+                "ExceptionFailure": {
+                  "count": 4
+                },
+                "FetchFailed": {
+                  "count": 6
+                }
+              }
+            },
+            {
+              "stageAttemptUID": "141-2",
+              "stageID": "141",
+              "stageAttemptID": "2",
+              "status": "SUCCESS",
+              "timeTaken": 4666782,
+              "totalDurationOfAllTasks": 206539988,
+              "actualExecutionDurationOfAllTasks": 206453617,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 77092611,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 3388325,
+              "minTaskTime": 51,
+              "averageTaskTime": 809622,
+              "medianTaskTime": 678785,
+              "numberOfTasks": 255,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 27,
+              "executionScore": 99,
+              "gcScore": 62,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "142",
+          "status": "SUCCESS",
+          "totalStageDuration": 333,
+          "totalDurationOfAllTasks": 218,
+          "actualExecutionDurationOfAllTasks": 179,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 0,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 333,
+          "minAttemptTime": 333,
+          "averageAttemptTime": 333,
+          "medianAttemptTime": 333,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 0,
+          "executionScore": 82,
+          "gcScore": 100,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "142-0",
+              "stageID": "142",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 333,
+              "totalDurationOfAllTasks": 218,
+              "actualExecutionDurationOfAllTasks": 179,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 0,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 91,
+              "minTaskTime": 42,
+              "averageTaskTime": 59,
+              "medianTaskTime": 46,
+              "numberOfTasks": 3,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 0,
+              "executionScore": 82,
+              "gcScore": 100,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "143",
+          "status": "SUCCESS",
+          "totalStageDuration": 299,
+          "totalDurationOfAllTasks": 103,
+          "actualExecutionDurationOfAllTasks": 90,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 0,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 299,
+          "minAttemptTime": 299,
+          "averageAttemptTime": 299,
+          "medianAttemptTime": 299,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 0,
+          "executionScore": 87,
+          "gcScore": 100,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "143-0",
+              "stageID": "143",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 299,
+              "totalDurationOfAllTasks": 103,
+              "actualExecutionDurationOfAllTasks": 90,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 0,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 90,
+              "minTaskTime": 90,
+              "averageTaskTime": 90,
+              "medianTaskTime": 90,
+              "numberOfTasks": 1,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 0,
+              "executionScore": 87,
+              "gcScore": 100,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "144",
+          "status": "SUCCESS",
+          "totalStageDuration": 8961614,
+          "totalDurationOfAllTasks": 256808,
+          "actualExecutionDurationOfAllTasks": 173878,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 69588,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 8961614,
+          "minAttemptTime": 8961614,
+          "averageAttemptTime": 8961614,
+          "medianAttemptTime": 8961614,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 0,
+          "executionScore": 67,
+          "gcScore": 72,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "144-0",
+              "stageID": "144",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 8961614,
+              "totalDurationOfAllTasks": 256808,
+              "actualExecutionDurationOfAllTasks": 173878,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 69588,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 2856,
+              "minTaskTime": 4,
+              "averageTaskTime": 17,
+              "medianTaskTime": 5,
+              "numberOfTasks": 10000,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 0,
+              "executionScore": 67,
+              "gcScore": 72,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "145",
+          "status": "SUCCESS",
+          "totalStageDuration": 258,
+          "totalDurationOfAllTasks": 240,
+          "actualExecutionDurationOfAllTasks": 193,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 0,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 258,
+          "minAttemptTime": 258,
+          "averageAttemptTime": 258,
+          "medianAttemptTime": 258,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 0,
+          "executionScore": 80,
+          "gcScore": 100,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "145-0",
+              "stageID": "145",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 258,
+              "totalDurationOfAllTasks": 240,
+              "actualExecutionDurationOfAllTasks": 193,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 0,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 88,
+              "minTaskTime": 52,
+              "averageTaskTime": 64,
+              "medianTaskTime": 53,
+              "numberOfTasks": 3,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 0,
+              "executionScore": 80,
+              "gcScore": 100,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "146",
+          "status": "SUCCESS",
+          "totalStageDuration": 8990049,
+          "totalDurationOfAllTasks": 207925,
+          "actualExecutionDurationOfAllTasks": 144582,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 55614,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 8990049,
+          "minAttemptTime": 8990049,
+          "averageAttemptTime": 8990049,
+          "medianAttemptTime": 8990049,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 0,
+          "executionScore": 69,
+          "gcScore": 73,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "146-0",
+              "stageID": "146",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 8990049,
+              "totalDurationOfAllTasks": 207925,
+              "actualExecutionDurationOfAllTasks": 144582,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 55614,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 3605,
+              "minTaskTime": 3,
+              "averageTaskTime": 14,
+              "medianTaskTime": 4,
+              "numberOfTasks": 10000,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 0,
+              "executionScore": 69,
+              "gcScore": 73,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "147",
+          "status": "SUCCESS",
+          "totalStageDuration": 37766,
+          "totalDurationOfAllTasks": 89067,
+          "actualExecutionDurationOfAllTasks": 51285,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 17844,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 37766,
+          "minAttemptTime": 37766,
+          "averageAttemptTime": 37766,
+          "medianAttemptTime": 37766,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 1,
+          "executionScore": 57,
+          "gcScore": 79,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "147-0",
+              "stageID": "147",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 37766,
+              "totalDurationOfAllTasks": 89067,
+              "actualExecutionDurationOfAllTasks": 51285,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 17844,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 711,
+              "minTaskTime": 1,
+              "averageTaskTime": 5,
+              "medianTaskTime": 2,
+              "numberOfTasks": 10000,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 1,
+              "executionScore": 57,
+              "gcScore": 79,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "148",
+          "status": "SUCCESS",
+          "totalStageDuration": 9025368,
+          "totalDurationOfAllTasks": 215917,
+          "actualExecutionDurationOfAllTasks": 150954,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 54831,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 9025368,
+          "minAttemptTime": 9025368,
+          "averageAttemptTime": 9025368,
+          "medianAttemptTime": 9025368,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 0,
+          "executionScore": 69,
+          "gcScore": 74,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "148-0",
+              "stageID": "148",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 9025368,
+              "totalDurationOfAllTasks": 215917,
+              "actualExecutionDurationOfAllTasks": 150954,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 54831,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 10879,
+              "minTaskTime": 3,
+              "averageTaskTime": 15,
+              "medianTaskTime": 4,
+              "numberOfTasks": 10000,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 0,
+              "executionScore": 69,
+              "gcScore": 74,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "149",
+          "status": "SUCCESS",
+          "totalStageDuration": 433,
+          "totalDurationOfAllTasks": 3212,
+          "actualExecutionDurationOfAllTasks": 3016,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 0,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 433,
+          "minAttemptTime": 433,
+          "averageAttemptTime": 433,
+          "medianAttemptTime": 433,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 4,
+          "executionScore": 93,
+          "gcScore": 100,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "149-0",
+              "stageID": "149",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 433,
+              "totalDurationOfAllTasks": 3212,
+              "actualExecutionDurationOfAllTasks": 3016,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 0,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 392,
+              "minTaskTime": 249,
+              "averageTaskTime": 301,
+              "medianTaskTime": 303,
+              "numberOfTasks": 10,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 4,
+              "executionScore": 93,
+              "gcScore": 100,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "150",
+          "status": "SUCCESS",
+          "totalStageDuration": 8844524,
+          "totalDurationOfAllTasks": 28179,
+          "actualExecutionDurationOfAllTasks": 25604,
+          "totalFailedAttemptsDuration": 8820573,
+          "totalGCDuration": 8567,
+          "numberOfStageRetries": 1,
+          "maxAttemptTime": 8820573,
+          "minAttemptTime": 23951,
+          "averageAttemptTime": 4422262,
+          "medianAttemptTime": 4422262,
+          "numberOfAttempts": 2,
+          "numberOfFailedAttempts": 1,
+          "numberOfAvailableCores": 160,
+          "taskScore": 0,
+          "executionScore": 90,
+          "gcScore": 69,
+          "tasksFailureMetrics": {
+            "FetchFailed": {
+              "count": 6
+            }
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "150-1",
+              "stageID": "150",
+              "stageAttemptID": "1",
+              "status": "SUCCESS",
+              "timeTaken": 23951,
+              "totalDurationOfAllTasks": 28003,
+              "actualExecutionDurationOfAllTasks": 25604,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 8567,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 23938,
+              "minTaskTime": 8,
+              "averageTaskTime": 2560,
+              "medianTaskTime": 65,
+              "numberOfTasks": 10,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 0,
+              "executionScore": 91,
+              "gcScore": 69,
+              "tasksFailureMetrics": {
+                
+              }
+            },
+            {
+              "stageAttemptUID": "150-0",
+              "stageID": "150",
+              "stageAttemptID": "0",
+              "status": "FAILED",
+              "timeTaken": 8820573,
+              "totalDurationOfAllTasks": 176,
+              "actualExecutionDurationOfAllTasks": 0,
+              "totalFailedTasksDuration": 176,
+              "totalGCDuration": 0,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 0,
+              "minTaskTime": 0,
+              "averageTaskTime": 0,
+              "medianTaskTime": 0,
+              "numberOfTasks": 6,
+              "numberOfFailedTasks": 6,
+              "numberOfAvailableCores": 160,
+              "taskScore": 0,
+              "executionScore": 0,
+              "gcScore": 100,
+              "tasksFailureMetrics": {
+                "FetchFailed": {
+                  "count": 6
+                }
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "151",
+          "status": "SUCCESS",
+          "totalStageDuration": 92111,
+          "totalDurationOfAllTasks": 5268076,
+          "actualExecutionDurationOfAllTasks": 5101684,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 58214,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 92111,
+          "minAttemptTime": 92111,
+          "averageAttemptTime": 92111,
+          "medianAttemptTime": 92111,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 35,
+          "executionScore": 96,
+          "gcScore": 98,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "151-0",
+              "stageID": "151",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 92111,
+              "totalDurationOfAllTasks": 5268076,
+              "actualExecutionDurationOfAllTasks": 5101684,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 58214,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 13530,
+              "minTaskTime": 39,
+              "averageTaskTime": 4933,
+              "medianTaskTime": 4872,
+              "numberOfTasks": 1034,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 35,
+              "executionScore": 96,
+              "gcScore": 98,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "152",
+          "status": "SUCCESS",
+          "totalStageDuration": 530,
+          "totalDurationOfAllTasks": 12317,
+          "actualExecutionDurationOfAllTasks": 11846,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 29,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 530,
+          "minAttemptTime": 530,
+          "averageAttemptTime": 530,
+          "medianAttemptTime": 530,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 14,
+          "executionScore": 96,
+          "gcScore": 99,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "152-0",
+              "stageID": "152",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 530,
+              "totalDurationOfAllTasks": 12317,
+              "actualExecutionDurationOfAllTasks": 11846,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 29,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 504,
+              "minTaskTime": 356,
+              "averageTaskTime": 423,
+              "medianTaskTime": 419,
+              "numberOfTasks": 28,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 14,
+              "executionScore": 96,
+              "gcScore": 99,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "jobID": "13",
+      "appID": "eventlog-overpartitioned",
+      "status": "SUCCESS",
+      "totalJobDuration": 51,
+      "totalDurationOfAllTasks": 521,
+      "actualExecutionDurationOfAllTasks": 329,
+      "totalFailedStagesDuration": 0,
+      "totalGCDuration": 0,
+      "maxStageDuration": 51,
+      "minStageDuration": 51,
+      "averageStageDuration": 51,
+      "medianStageDuration": 51,
+      "numberOfStages": 1,
+      "numberOfFailedStages": 0,
+      "numberOfAvailableCores": 160,
+      "taskScore": 6,
+      "executionScore": 63,
+      "gcScore": 100,
+      "tasksFailureMetrics": {
+        
+      },
+      "stageReportList": [
+        {
+          "stageID": "261",
+          "status": "SUCCESS",
+          "totalStageDuration": 51,
+          "totalDurationOfAllTasks": 521,
+          "actualExecutionDurationOfAllTasks": 329,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 0,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 51,
+          "minAttemptTime": 51,
+          "averageAttemptTime": 51,
+          "medianAttemptTime": 51,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 6,
+          "executionScore": 63,
+          "gcScore": 100,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "261-0",
+              "stageID": "261",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 51,
+              "totalDurationOfAllTasks": 521,
+              "actualExecutionDurationOfAllTasks": 329,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 0,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 26,
+              "minTaskTime": 7,
+              "averageTaskTime": 16,
+              "medianTaskTime": 17,
+              "numberOfTasks": 20,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 6,
+              "executionScore": 63,
+              "gcScore": 100,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "jobID": "14",
+      "appID": "eventlog-overpartitioned",
+      "status": "SUCCESS",
+      "totalJobDuration": 47,
+      "totalDurationOfAllTasks": 2525,
+      "actualExecutionDurationOfAllTasks": 1388,
+      "totalFailedStagesDuration": 0,
+      "totalGCDuration": 0,
+      "maxStageDuration": 47,
+      "minStageDuration": 47,
+      "averageStageDuration": 47,
+      "medianStageDuration": 47,
+      "numberOfStages": 1,
+      "numberOfFailedStages": 0,
+      "numberOfAvailableCores": 160,
+      "taskScore": 33,
+      "executionScore": 54,
+      "gcScore": 100,
+      "tasksFailureMetrics": {
+        
+      },
+      "stageReportList": [
+        {
+          "stageID": "297",
+          "status": "SUCCESS",
+          "totalStageDuration": 47,
+          "totalDurationOfAllTasks": 2525,
+          "actualExecutionDurationOfAllTasks": 1388,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 0,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 47,
+          "minAttemptTime": 47,
+          "averageAttemptTime": 47,
+          "medianAttemptTime": 47,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 33,
+          "executionScore": 54,
+          "gcScore": 100,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "297-0",
+              "stageID": "297",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 47,
+              "totalDurationOfAllTasks": 2525,
+              "actualExecutionDurationOfAllTasks": 1388,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 0,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 28,
+              "minTaskTime": 5,
+              "averageTaskTime": 13,
+              "medianTaskTime": 13,
+              "numberOfTasks": 100,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 33,
+              "executionScore": 54,
+              "gcScore": 100,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "jobID": "15",
+      "appID": "eventlog-overpartitioned",
+      "status": "SUCCESS",
+      "totalJobDuration": 85,
+      "totalDurationOfAllTasks": 9864,
+      "actualExecutionDurationOfAllTasks": 6199,
+      "totalFailedStagesDuration": 0,
+      "totalGCDuration": 0,
+      "maxStageDuration": 85,
+      "minStageDuration": 85,
+      "averageStageDuration": 85,
+      "medianStageDuration": 85,
+      "numberOfStages": 1,
+      "numberOfFailedStages": 0,
+      "numberOfAvailableCores": 160,
+      "taskScore": 72,
+      "executionScore": 62,
+      "gcScore": 100,
+      "tasksFailureMetrics": {
+        
+      },
+      "stageReportList": [
+        {
+          "stageID": "333",
+          "status": "SUCCESS",
+          "totalStageDuration": 85,
+          "totalDurationOfAllTasks": 9864,
+          "actualExecutionDurationOfAllTasks": 6199,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 0,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 85,
+          "minAttemptTime": 85,
+          "averageAttemptTime": 85,
+          "medianAttemptTime": 85,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 72,
+          "executionScore": 62,
+          "gcScore": 100,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "333-0",
+              "stageID": "333",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 85,
+              "totalDurationOfAllTasks": 9864,
+              "actualExecutionDurationOfAllTasks": 6199,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 0,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 34,
+              "minTaskTime": 3,
+              "averageTaskTime": 12,
+              "medianTaskTime": 12,
+              "numberOfTasks": 500,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 72,
+              "executionScore": 62,
+              "gcScore": 100,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "jobID": "16",
+      "appID": "eventlog-overpartitioned",
+      "status": "SUCCESS",
+      "totalJobDuration": 411,
+      "totalDurationOfAllTasks": 60887,
+      "actualExecutionDurationOfAllTasks": 40503,
+      "totalFailedStagesDuration": 0,
+      "totalGCDuration": 8,
+      "maxStageDuration": 411,
+      "minStageDuration": 411,
+      "averageStageDuration": 411,
+      "medianStageDuration": 411,
+      "numberOfStages": 1,
+      "numberOfFailedStages": 0,
+      "numberOfAvailableCores": 160,
+      "taskScore": 92,
+      "executionScore": 66,
+      "gcScore": 99,
+      "tasksFailureMetrics": {
+        
+      },
+      "stageReportList": [
+        {
+          "stageID": "369",
+          "status": "SUCCESS",
+          "totalStageDuration": 411,
+          "totalDurationOfAllTasks": 60887,
+          "actualExecutionDurationOfAllTasks": 40503,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 8,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 411,
+          "minAttemptTime": 411,
+          "averageAttemptTime": 411,
+          "medianAttemptTime": 411,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 92,
+          "executionScore": 66,
+          "gcScore": 99,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "369-0",
+              "stageID": "369",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 411,
+              "totalDurationOfAllTasks": 60887,
+              "actualExecutionDurationOfAllTasks": 40503,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 8,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 94,
+              "minTaskTime": 3,
+              "averageTaskTime": 16,
+              "medianTaskTime": 9,
+              "numberOfTasks": 2500,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 92,
+              "executionScore": 66,
+              "gcScore": 99,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "jobID": "17",
+      "appID": "eventlog-overpartitioned",
+      "status": "SUCCESS",
+      "totalJobDuration": 1422,
+      "totalDurationOfAllTasks": 179297,
+      "actualExecutionDurationOfAllTasks": 118884,
+      "totalFailedStagesDuration": 0,
+      "totalGCDuration": 255,
+      "maxStageDuration": 1422,
+      "minStageDuration": 1422,
+      "averageStageDuration": 1422,
+      "medianStageDuration": 1422,
+      "numberOfStages": 1,
+      "numberOfFailedStages": 0,
+      "numberOfAvailableCores": 160,
+      "taskScore": 78,
+      "executionScore": 66,
+      "gcScore": 99,
+      "tasksFailureMetrics": {
+        
+      },
+      "stageReportList": [
+        {
+          "stageID": "405",
+          "status": "SUCCESS",
+          "totalStageDuration": 1422,
+          "totalDurationOfAllTasks": 179297,
+          "actualExecutionDurationOfAllTasks": 118884,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 255,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 1422,
+          "minAttemptTime": 1422,
+          "averageAttemptTime": 1422,
+          "medianAttemptTime": 1422,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 78,
+          "executionScore": 66,
+          "gcScore": 99,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "405-0",
+              "stageID": "405",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 1422,
+              "totalDurationOfAllTasks": 179297,
+              "actualExecutionDurationOfAllTasks": 118884,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 255,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 106,
+              "minTaskTime": 3,
+              "averageTaskTime": 20,
+              "medianTaskTime": 10,
+              "numberOfTasks": 5889,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 78,
+              "executionScore": 66,
+              "gcScore": 99,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "jobID": "0",
+      "appID": "eventlog-overpartitioned",
+      "status": "SUCCESS",
+      "totalJobDuration": 520311,
+      "totalDurationOfAllTasks": 38924086,
+      "actualExecutionDurationOfAllTasks": 37652700,
+      "totalFailedStagesDuration": 0,
+      "totalGCDuration": 87657,
+      "maxStageDuration": 482620,
+      "minStageDuration": 434,
+      "averageStageDuration": 86718,
+      "medianStageDuration": 12457,
+      "numberOfStages": 6,
+      "numberOfFailedStages": 0,
+      "numberOfAvailableCores": 160,
+      "taskScore": 46,
+      "executionScore": 96,
+      "gcScore": 99,
+      "tasksFailureMetrics": {
+        "ExceptionFailure": {
+          "count": 32
+        }
+      },
+      "stageReportList": [
+        {
+          "stageID": "0",
+          "status": "SUCCESS",
+          "totalStageDuration": 6465,
+          "totalDurationOfAllTasks": 6439,
+          "actualExecutionDurationOfAllTasks": 3365,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 44,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 6465,
+          "minAttemptTime": 6465,
+          "averageAttemptTime": 6465,
+          "medianAttemptTime": 6465,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 0,
+          "executionScore": 52,
+          "gcScore": 99,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "0-0",
+              "stageID": "0",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 6465,
+              "totalDurationOfAllTasks": 6439,
+              "actualExecutionDurationOfAllTasks": 3365,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 44,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 3365,
+              "minTaskTime": 3365,
+              "averageTaskTime": 3365,
+              "medianTaskTime": 3365,
+              "numberOfTasks": 1,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 0,
+              "executionScore": 52,
+              "gcScore": 99,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "1",
+          "status": "SUCCESS",
+          "totalStageDuration": 5878,
+          "totalDurationOfAllTasks": 5760,
+          "actualExecutionDurationOfAllTasks": 2809,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 42,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 5878,
+          "minAttemptTime": 5878,
+          "averageAttemptTime": 5878,
+          "medianAttemptTime": 5878,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 0,
+          "executionScore": 48,
+          "gcScore": 99,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "1-0",
+              "stageID": "1",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 5878,
+              "totalDurationOfAllTasks": 5760,
+              "actualExecutionDurationOfAllTasks": 2809,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 42,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 2809,
+              "minTaskTime": 2809,
+              "averageTaskTime": 2809,
+              "medianTaskTime": 2809,
+              "numberOfTasks": 1,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 0,
+              "executionScore": 48,
+              "gcScore": 99,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "2",
+          "status": "SUCCESS",
+          "totalStageDuration": 13161,
+          "totalDurationOfAllTasks": 1688463,
+          "actualExecutionDurationOfAllTasks": 522095,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 11465,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 13161,
+          "minAttemptTime": 13161,
+          "averageAttemptTime": 13161,
+          "medianAttemptTime": 13161,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 80,
+          "executionScore": 30,
+          "gcScore": 99,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "2-0",
+              "stageID": "2",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 13161,
+              "totalDurationOfAllTasks": 1688463,
+              "actualExecutionDurationOfAllTasks": 522095,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 11465,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 3792,
+              "minTaskTime": 2,
+              "averageTaskTime": 52,
+              "medianTaskTime": 4,
+              "numberOfTasks": 10000,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 80,
+              "executionScore": 30,
+              "gcScore": 99,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "3",
+          "status": "SUCCESS",
+          "totalStageDuration": 11753,
+          "totalDurationOfAllTasks": 170719,
+          "actualExecutionDurationOfAllTasks": 102506,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 8627,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 11753,
+          "minAttemptTime": 11753,
+          "averageAttemptTime": 11753,
+          "medianAttemptTime": 11753,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 9,
+          "executionScore": 60,
+          "gcScore": 94,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "3-0",
+              "stageID": "3",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 11753,
+              "totalDurationOfAllTasks": 170719,
+              "actualExecutionDurationOfAllTasks": 102506,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 8627,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 411,
+              "minTaskTime": 2,
+              "averageTaskTime": 10,
+              "medianTaskTime": 6,
+              "numberOfTasks": 10000,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 9,
+              "executionScore": 60,
+              "gcScore": 94,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "4",
+          "status": "SUCCESS",
+          "totalStageDuration": 434,
+          "totalDurationOfAllTasks": 38500,
+          "actualExecutionDurationOfAllTasks": 31475,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 500,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 434,
+          "minAttemptTime": 434,
+          "averageAttemptTime": 434,
+          "medianAttemptTime": 434,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 55,
+          "executionScore": 81,
+          "gcScore": 98,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "4-0",
+              "stageID": "4",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 434,
+              "totalDurationOfAllTasks": 38500,
+              "actualExecutionDurationOfAllTasks": 31475,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 500,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 358,
+              "minTaskTime": 166,
+              "averageTaskTime": 245,
+              "medianTaskTime": 251,
+              "numberOfTasks": 128,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 55,
+              "executionScore": 81,
+              "gcScore": 98,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "5",
+          "status": "SUCCESS",
+          "totalStageDuration": 482620,
+          "totalDurationOfAllTasks": 37014205,
+          "actualExecutionDurationOfAllTasks": 36990450,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 66979,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 482620,
+          "minAttemptTime": 482620,
+          "averageAttemptTime": 482620,
+          "medianAttemptTime": 482620,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 47,
+          "executionScore": 99,
+          "gcScore": 99,
+          "tasksFailureMetrics": {
+            "ExceptionFailure": {
+              "count": 32
+            }
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "5-0",
+              "stageID": "5",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 482620,
+              "totalDurationOfAllTasks": 37014205,
+              "actualExecutionDurationOfAllTasks": 36990450,
+              "totalFailedTasksDuration": 12132439,
+              "totalGCDuration": 66979,
+              "numberOfTaskRetries": 32,
+              "maxTaskTime": 482562,
+              "minTaskTime": 18,
+              "averageTaskTime": 288987,
+              "medianTaskTime": 336586,
+              "numberOfTasks": 160,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 47,
+              "executionScore": 99,
+              "gcScore": 99,
+              "tasksFailureMetrics": {
+                "ExceptionFailure": {
+                  "count": 32
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "jobID": "1",
+      "appID": "eventlog-overpartitioned",
+      "status": "SUCCESS",
+      "totalJobDuration": 1982,
+      "totalDurationOfAllTasks": 233632,
+      "actualExecutionDurationOfAllTasks": 24124,
+      "totalFailedStagesDuration": 0,
+      "totalGCDuration": 34540,
+      "maxStageDuration": 1857,
+      "minStageDuration": 125,
+      "averageStageDuration": 991,
+      "medianStageDuration": 991,
+      "numberOfStages": 2,
+      "numberOfFailedStages": 0,
+      "numberOfAvailableCores": 160,
+      "taskScore": 73,
+      "executionScore": 10,
+      "gcScore": 85,
+      "tasksFailureMetrics": {
+        
+      },
+      "stageReportList": [
+        {
+          "stageID": "8",
+          "status": "SUCCESS",
+          "totalStageDuration": 125,
+          "totalDurationOfAllTasks": 10540,
+          "actualExecutionDurationOfAllTasks": 7866,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 0,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 125,
+          "minAttemptTime": 125,
+          "averageAttemptTime": 125,
+          "medianAttemptTime": 125,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 52,
+          "executionScore": 74,
+          "gcScore": 100,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "8-0",
+              "stageID": "8",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 125,
+              "totalDurationOfAllTasks": 10540,
+              "actualExecutionDurationOfAllTasks": 7866,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 0,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 95,
+              "minTaskTime": 9,
+              "averageTaskTime": 61,
+              "medianTaskTime": 65,
+              "numberOfTasks": 128,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 52,
+              "executionScore": 74,
+              "gcScore": 100,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "9",
+          "status": "SUCCESS",
+          "totalStageDuration": 1857,
+          "totalDurationOfAllTasks": 223092,
+          "actualExecutionDurationOfAllTasks": 16258,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 34540,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 1857,
+          "minAttemptTime": 1857,
+          "averageAttemptTime": 1857,
+          "medianAttemptTime": 1857,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 75,
+          "executionScore": 7,
+          "gcScore": 84,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "9-0",
+              "stageID": "9",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 1857,
+              "totalDurationOfAllTasks": 223092,
+              "actualExecutionDurationOfAllTasks": 16258,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 34540,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 518,
+              "minTaskTime": 3,
+              "averageTaskTime": 15,
+              "medianTaskTime": 7,
+              "numberOfTasks": 1024,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 75,
+              "executionScore": 7,
+              "gcScore": 84,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "jobID": "2",
+      "appID": "eventlog-overpartitioned",
+      "status": "SUCCESS",
+      "totalJobDuration": 180018,
+      "totalDurationOfAllTasks": 1380731,
+      "actualExecutionDurationOfAllTasks": 540486,
+      "totalFailedStagesDuration": 0,
+      "totalGCDuration": 73778,
+      "maxStageDuration": 156872,
+      "minStageDuration": 58,
+      "averageStageDuration": 20002,
+      "medianStageDuration": 2161,
+      "numberOfStages": 9,
+      "numberOfFailedStages": 0,
+      "numberOfAvailableCores": 160,
+      "taskScore": 4,
+      "executionScore": 39,
+      "gcScore": 94,
+      "tasksFailureMetrics": {
+        
+      },
+      "stageReportList": [
+        {
+          "stageID": "10",
+          "status": "SUCCESS",
+          "totalStageDuration": 599,
+          "totalDurationOfAllTasks": 329,
+          "actualExecutionDurationOfAllTasks": 309,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 46,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 599,
+          "minAttemptTime": 599,
+          "averageAttemptTime": 599,
+          "medianAttemptTime": 599,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 0,
+          "executionScore": 93,
+          "gcScore": 86,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "10-0",
+              "stageID": "10",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 599,
+              "totalDurationOfAllTasks": 329,
+              "actualExecutionDurationOfAllTasks": 309,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 46,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 309,
+              "minTaskTime": 309,
+              "averageTaskTime": 309,
+              "medianTaskTime": 309,
+              "numberOfTasks": 1,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 0,
+              "executionScore": 93,
+              "gcScore": 86,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "11",
+          "status": "SUCCESS",
+          "totalStageDuration": 546,
+          "totalDurationOfAllTasks": 316,
+          "actualExecutionDurationOfAllTasks": 294,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 46,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 546,
+          "minAttemptTime": 546,
+          "averageAttemptTime": 546,
+          "medianAttemptTime": 546,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 0,
+          "executionScore": 93,
+          "gcScore": 85,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "11-0",
+              "stageID": "11",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 546,
+              "totalDurationOfAllTasks": 316,
+              "actualExecutionDurationOfAllTasks": 294,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 46,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 294,
+              "minTaskTime": 294,
+              "averageTaskTime": 294,
+              "medianTaskTime": 294,
+              "numberOfTasks": 1,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 0,
+              "executionScore": 93,
+              "gcScore": 85,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "12",
+          "status": "SUCCESS",
+          "totalStageDuration": 2161,
+          "totalDurationOfAllTasks": 313351,
+          "actualExecutionDurationOfAllTasks": 96647,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 2650,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 2161,
+          "minAttemptTime": 2161,
+          "averageAttemptTime": 2161,
+          "medianAttemptTime": 2161,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 90,
+          "executionScore": 30,
+          "gcScore": 99,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "12-0",
+              "stageID": "12",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 2161,
+              "totalDurationOfAllTasks": 313351,
+              "actualExecutionDurationOfAllTasks": 96647,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 2650,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 686,
+              "minTaskTime": 4,
+              "averageTaskTime": 9,
+              "medianTaskTime": 8,
+              "numberOfTasks": 10000,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 90,
+              "executionScore": 30,
+              "gcScore": 99,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "16",
+          "status": "SUCCESS",
+          "totalStageDuration": 156872,
+          "totalDurationOfAllTasks": 348536,
+          "actualExecutionDurationOfAllTasks": 180500,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 52987,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 156872,
+          "minAttemptTime": 156872,
+          "averageAttemptTime": 156872,
+          "medianAttemptTime": 156872,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 1,
+          "executionScore": 51,
+          "gcScore": 84,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "16-0",
+              "stageID": "16",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 156872,
+              "totalDurationOfAllTasks": 348536,
+              "actualExecutionDurationOfAllTasks": 180500,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 52987,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 155969,
+              "minTaskTime": 7,
+              "averageTaskTime": 178,
+              "medianTaskTime": 14,
+              "numberOfTasks": 1014,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 1,
+              "executionScore": 51,
+              "gcScore": 84,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "17",
+          "status": "SUCCESS",
+          "totalStageDuration": 58,
+          "totalDurationOfAllTasks": 419,
+          "actualExecutionDurationOfAllTasks": 272,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 0,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 58,
+          "minAttemptTime": 58,
+          "averageAttemptTime": 58,
+          "medianAttemptTime": 58,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 4,
+          "executionScore": 64,
+          "gcScore": 100,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "17-0",
+              "stageID": "17",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 58,
+              "totalDurationOfAllTasks": 419,
+              "actualExecutionDurationOfAllTasks": 272,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 0,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 33,
+              "minTaskTime": 21,
+              "averageTaskTime": 27,
+              "medianTaskTime": 30,
+              "numberOfTasks": 10,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 4,
+              "executionScore": 64,
+              "gcScore": 100,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "18",
+          "status": "SUCCESS",
+          "totalStageDuration": 2867,
+          "totalDurationOfAllTasks": 262190,
+          "actualExecutionDurationOfAllTasks": 162745,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 1175,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 2867,
+          "minAttemptTime": 2867,
+          "averageAttemptTime": 2867,
+          "medianAttemptTime": 2867,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 57,
+          "executionScore": 62,
+          "gcScore": 99,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "18-0",
+              "stageID": "18",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 2867,
+              "totalDurationOfAllTasks": 262190,
+              "actualExecutionDurationOfAllTasks": 162745,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 1175,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 168,
+              "minTaskTime": 4,
+              "averageTaskTime": 21,
+              "medianTaskTime": 9,
+              "numberOfTasks": 7640,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 57,
+              "executionScore": 62,
+              "gcScore": 99,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "19",
+          "status": "SUCCESS",
+          "totalStageDuration": 6431,
+          "totalDurationOfAllTasks": 195982,
+          "actualExecutionDurationOfAllTasks": 55146,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 2583,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 6431,
+          "minAttemptTime": 6431,
+          "averageAttemptTime": 6431,
+          "medianAttemptTime": 6431,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 19,
+          "executionScore": 28,
+          "gcScore": 98,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "19-0",
+              "stageID": "19",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 6431,
+              "totalDurationOfAllTasks": 195982,
+              "actualExecutionDurationOfAllTasks": 55146,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 2583,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 261,
+              "minTaskTime": 4,
+              "averageTaskTime": 7,
+              "medianTaskTime": 6,
+              "numberOfTasks": 7828,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 19,
+              "executionScore": 28,
+              "gcScore": 98,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "20",
+          "status": "SUCCESS",
+          "totalStageDuration": 10172,
+          "totalDurationOfAllTasks": 258782,
+          "actualExecutionDurationOfAllTasks": 44067,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 14291,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 10172,
+          "minAttemptTime": 10172,
+          "averageAttemptTime": 10172,
+          "medianAttemptTime": 10172,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 15,
+          "executionScore": 17,
+          "gcScore": 94,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "20-0",
+              "stageID": "20",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 10172,
+              "totalDurationOfAllTasks": 258782,
+              "actualExecutionDurationOfAllTasks": 44067,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 14291,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 8920,
+              "minTaskTime": 7,
+              "averageTaskTime": 42,
+              "medianTaskTime": 18,
+              "numberOfTasks": 1034,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 15,
+              "executionScore": 17,
+              "gcScore": 94,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        },
+        {
+          "stageID": "21",
+          "status": "SUCCESS",
+          "totalStageDuration": 312,
+          "totalDurationOfAllTasks": 826,
+          "actualExecutionDurationOfAllTasks": 506,
+          "totalFailedAttemptsDuration": 0,
+          "totalGCDuration": 0,
+          "numberOfStageRetries": 0,
+          "maxAttemptTime": 312,
+          "minAttemptTime": 312,
+          "averageAttemptTime": 312,
+          "medianAttemptTime": 312,
+          "numberOfAttempts": 1,
+          "numberOfFailedAttempts": 0,
+          "numberOfAvailableCores": 160,
+          "taskScore": 1,
+          "executionScore": 61,
+          "gcScore": 100,
+          "tasksFailureMetrics": {
+            
+          },
+          "stageAttemptReportList": [
+            {
+              "stageAttemptUID": "21-0",
+              "stageID": "21",
+              "stageAttemptID": "0",
+              "status": "SUCCESS",
+              "timeTaken": 312,
+              "totalDurationOfAllTasks": 826,
+              "actualExecutionDurationOfAllTasks": 506,
+              "totalFailedTasksDuration": 0,
+              "totalGCDuration": 0,
+              "numberOfTaskRetries": 0,
+              "maxTaskTime": 292,
+              "minTaskTime": 4,
+              "averageTaskTime": 18,
+              "medianTaskTime": 8,
+              "numberOfTasks": 28,
+              "numberOfFailedTasks": 0,
+              "numberOfAvailableCores": 160,
+              "taskScore": 1,
+              "executionScore": 61,
+              "gcScore": 100,
+              "tasksFailureMetrics": {
+                
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
