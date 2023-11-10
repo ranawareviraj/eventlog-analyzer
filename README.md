@@ -43,7 +43,7 @@ For setting up project and executing it locally, follow these simple steps:
 * Installation:
   * Clone the repo: 
   ```
-  <repo URL>
+  git clone <repo URL>
   ```
   * Build the application
   ```
