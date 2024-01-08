@@ -1,4 +1,5 @@
 # EventLog Analyzer
+### Author: Viraj Ranaware
 
 <!-- TABLE OF CONTENTS -->
 <details>
